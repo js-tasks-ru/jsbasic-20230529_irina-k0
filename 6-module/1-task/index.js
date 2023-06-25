@@ -45,7 +45,7 @@ export default class UserTable {
         <td>${row.salary}</td>
         <td>${row.city}</td>
         <td><button onclick="(() => this.closest('tr').remove())()">X</button></td>`;
-        tbody.append(tr);
+      tbody.append(tr);
     }
     
     table.append(thead);
