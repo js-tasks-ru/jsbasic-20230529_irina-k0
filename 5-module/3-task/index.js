@@ -2,7 +2,7 @@ function initCarousel() {
   let arrowRight = document.getElementsByClassName("carousel__arrow_right")[0];
   let arrowLeft = document.getElementsByClassName("carousel__arrow_left")[0];
   let carousel = document.getElementsByClassName("carousel__inner")[0];
-  let index =0;
+  let index = 0;
   arrowLeft.style.display = 'none';
 
   arrowRight.addEventListener("click", function() {
